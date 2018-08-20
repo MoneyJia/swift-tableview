@@ -14,6 +14,20 @@
 		9D49862B2126700500C63BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4986292126700500C63BB5 /* LaunchScreen.storyboard */; };
 		9D4986362126700500C63BB5 /* swift_tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4986352126700500C63BB5 /* swift_tableviewTests.swift */; };
 		9D4986412126700500C63BB5 /* swift_tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4986402126700500C63BB5 /* swift_tableviewUITests.swift */; };
+		9D49864F2126714200C63BB5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49864E2126714200C63BB5 /* BaseViewController.swift */; };
+		9D49865121267B5C00C63BB5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865021267B5C00C63BB5 /* TableViewController.swift */; };
+		9D49865321267B6C00C63BB5 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865221267B6C00C63BB5 /* TestCollectionViewController.swift */; };
+		9D49865521267D0800C63BB5 /* TableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865421267D0800C63BB5 /* TableCellViewController.swift */; };
+		9D49865721269D0600C63BB5 /* TableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865621269D0600C63BB5 /* TableCellModel.swift */; };
+		9D49865921269D2300C63BB5 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865821269D2300C63BB5 /* CellTableViewCell.swift */; };
+		9D49865C2126C2C400C63BB5 /* swift-tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865B2126C2C400C63BB5 /* swift-tableview.swift */; };
+		9D49865F2126CD6900C63BB5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D49865E2126CD6900C63BB5 /* CollectionViewCell.swift */; };
+		9D4986622126CD8600C63BB5 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4986612126CD8600C63BB5 /* CollectionViewCell.xib */; };
+		9D6D57F7212A501A00FFAE8A /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D57F6212A501A00FFAE8A /* TestCollectionViewCell.swift */; };
+		9D6D57F9212A57DD00FFAE8A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D57F8212A57DD00FFAE8A /* CollectionViewController.swift */; };
+		9D6D57FB212A5B5B00FFAE8A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D57FA212A5B5B00FFAE8A /* TestViewController.swift */; };
+		9D6D57FD212A5B6F00FFAE8A /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D57FC212A5B6F00FFAE8A /* TestTableViewCell.swift */; };
+		9D6D57FF212A5BA900FFAE8A /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D57FE212A5BA900FFAE8A /* TestTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		9D49863C2126700500C63BB5 /* swift-tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-tableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4986402126700500C63BB5 /* swift_tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tableviewUITests.swift; sourceTree = "<group>"; };
 		9D4986422126700500C63BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D49864E2126714200C63BB5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9D49865021267B5C00C63BB5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9D49865221267B6C00C63BB5 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		9D49865421267D0800C63BB5 /* TableCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewController.swift; sourceTree = "<group>"; };
+		9D49865621269D0600C63BB5 /* TableCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellModel.swift; sourceTree = "<group>"; };
+		9D49865821269D2300C63BB5 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		9D49865B2126C2C400C63BB5 /* swift-tableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift-tableview.swift"; sourceTree = "<group>"; };
+		9D49865E2126CD6900C63BB5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9D4986612126CD8600C63BB5 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		9D6D57F6212A501A00FFAE8A /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D6D57F8212A57DD00FFAE8A /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		9D6D57FA212A5B5B00FFAE8A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		9D6D57FC212A5B6F00FFAE8A /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		9D6D57FE212A5BA900FFAE8A /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +125,13 @@
 		9D49861F2126700400C63BB5 /* swift-tableview */ = {
 			isa = PBXGroup;
 			children = (
+				9D49865B2126C2C400C63BB5 /* swift-tableview.swift */,
 				9D4986202126700400C63BB5 /* AppDelegate.swift */,
 				9D4986222126700400C63BB5 /* ViewController.swift */,
+				9D49865021267B5C00C63BB5 /* TableViewController.swift */,
+				9D49865D2126CD4700C63BB5 /* Tableview */,
+				9D4986602126CD7000C63BB5 /* Collection */,
+				9D49864E2126714200C63BB5 /* BaseViewController.swift */,
 				9D4986242126700400C63BB5 /* Main.storyboard */,
 				9D4986272126700500C63BB5 /* Assets.xcassets */,
 				9D4986292126700500C63BB5 /* LaunchScreen.storyboard */,
@@ -123,6 +156,31 @@
 				9D4986422126700500C63BB5 /* Info.plist */,
 			);
 			path = "swift-tableviewUITests";
+			sourceTree = "<group>";
+		};
+		9D49865D2126CD4700C63BB5 /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				9D49865421267D0800C63BB5 /* TableCellViewController.swift */,
+				9D49865621269D0600C63BB5 /* TableCellModel.swift */,
+				9D49865821269D2300C63BB5 /* CellTableViewCell.swift */,
+				9D6D57FA212A5B5B00FFAE8A /* TestViewController.swift */,
+				9D6D57FC212A5B6F00FFAE8A /* TestTableViewCell.swift */,
+				9D6D57FE212A5BA900FFAE8A /* TestTableViewCell.xib */,
+			);
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		9D4986602126CD7000C63BB5 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				9D49865221267B6C00C63BB5 /* TestCollectionViewController.swift */,
+				9D6D57F6212A501A00FFAE8A /* TestCollectionViewCell.swift */,
+				9D6D57F8212A57DD00FFAE8A /* CollectionViewController.swift */,
+				9D49865E2126CD6900C63BB5 /* CollectionViewCell.swift */,
+				9D4986612126CD8600C63BB5 /* CollectionViewCell.xib */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +287,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6D57FF212A5BA900FFAE8A /* TestTableViewCell.xib in Resources */,
 				9D49862B2126700500C63BB5 /* LaunchScreen.storyboard in Resources */,
+				9D4986622126CD8600C63BB5 /* CollectionViewCell.xib in Resources */,
 				9D4986282126700500C63BB5 /* Assets.xcassets in Resources */,
 				9D4986262126700400C63BB5 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6D57F9212A57DD00FFAE8A /* CollectionViewController.swift in Sources */,
+				9D49865F2126CD6900C63BB5 /* CollectionViewCell.swift in Sources */,
 				9D4986232126700400C63BB5 /* ViewController.swift in Sources */,
+				9D49865721269D0600C63BB5 /* TableCellModel.swift in Sources */,
 				9D4986212126700400C63BB5 /* AppDelegate.swift in Sources */,
+				9D6D57FD212A5B6F00FFAE8A /* TestTableViewCell.swift in Sources */,
+				9D6D57FB212A5B5B00FFAE8A /* TestViewController.swift in Sources */,
+				9D6D57F7212A501A00FFAE8A /* TestCollectionViewCell.swift in Sources */,
+				9D49864F2126714200C63BB5 /* BaseViewController.swift in Sources */,
+				9D49865121267B5C00C63BB5 /* TableViewController.swift in Sources */,
+				9D49865921269D2300C63BB5 /* CellTableViewCell.swift in Sources */,
+				9D49865321267B6C00C63BB5 /* TestCollectionViewController.swift in Sources */,
+				9D49865C2126C2C400C63BB5 /* swift-tableview.swift in Sources */,
+				9D49865521267D0800C63BB5 /* TableCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,13 +503,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "swift-tableview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moneyJia.swift-tableview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,13 +524,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "swift-tableview/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moneyJia.swift-tableview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

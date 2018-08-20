@@ -12,4 +12,9 @@ class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var titleView: UIView!
     @IBOutlet weak var titleLable: UILabel!
+    
+    override func awakeFromNib() {
+        
+    }
+    
 }

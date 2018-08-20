@@ -8,13 +8,13 @@
 
 import UIKit
 
-class TestCollectionViewCell: BaseViewController {
+class TestCollectionViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.title = "collctionview的简单使用"
+        self.title = "collctionview-自定义cell"
         
         createCollection()
     }
@@ -52,6 +52,7 @@ class TestCollectionViewCell: BaseViewController {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(indexPath.row)
+        self.navigationController?.pushViewController(CollectionViewController(), animated: true)
     }
     
     override func didReceiveMemoryWarning() {

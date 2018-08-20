@@ -49,6 +49,9 @@ class TableCellViewController: BaseViewController {
     override func createTableview() {
         super.createTableview()
         
+        self.tablview?.register(CellTableViewCell.self, forCellReuseIdentifier:"cell")
+        
+
         self.tablview?.rowHeight = 60.0
     }
     
@@ -59,7 +62,9 @@ class TableCellViewController: BaseViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell : CellTableViewCell = CellTableViewCell(style: UITableViewCellStyle.`default`, reuseIdentifier: "cell")
+        
+        //let cell : CellTableViewCell = CellTableViewCell(style: UITableViewCellStyle.`default`, reuseIdentifier: "cell")
+        let cell : CellTableViewCell = tablview?.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CellTableViewCell
         cell.selectionStyle = UITableViewCellSelectionStyle.none
         cell.loadData(model: dataArr![indexPath.row] as! TableCellModel)
         return cell
@@ -68,7 +73,7 @@ class TableCellViewController: BaseViewController {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         print(indexPath.row)
-        
+        self.navigationController?.pushViewController(TestViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {

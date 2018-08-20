@@ -14,8 +14,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    //$(SRCROOT)/swift-tableview/swift-tableview.swift
+    
+    //http://www.cocoachina.com/ios/20141224/10752.html
+    
+    //添加pch文件
+    //https://www.jianshu.com/p/df8f8f338e2e
+    
+    //参考
+    //https://www.jianshu.com/p/3c7995ffc4da
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
